@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>베이킹도구 | 초보자도 할 수 있다 베이킹</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title"><a href="index.html">🍰 초보자도 할 수 있다 베이킹</a></h1>
+      <nav>
+        <a href="admin.html" class="admin-link">관리자</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <div class="container tabs-inner">
+      <a href="index.html" class="tab">🎬 동영상</a>
+      <a href="recipes.html" class="tab">📖 레시피</a>
+      <a href="tools.html" class="tab active">🍴 베이킹도구</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h2 class="page-title">베이킹도구</h2>
+    <div id="items-list" class="items-list">
+      <p class="loading">불러오는 중…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; 2026 Baking Project</small>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/tools.js"></script>
+</body>
+</html>

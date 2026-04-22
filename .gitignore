@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Node (쓸 일 있을 때 대비)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+
+# 로컬 환경파일 (혹시 추가하게 되면)
+.env
+.env.local
